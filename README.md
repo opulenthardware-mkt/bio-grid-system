@@ -1,8 +1,10 @@
 # BIO-GRID website refresh
 
-## Overview revision 2
+## Revision 3 — full-width overview
 
-The overview now leads with the wider BIO-GRID experience: Command Array as the centerpiece and entry into the ecosystem, complementary roles for Audio Module / Vantage / Orbital Watch, example multi-widget arrangements, and a shared visual identity. This revision changes index.html and styles.css. All other pages remain as prepared in the first refresh.
+The overview uses a viewport-wide hero with large type, a technical grid and Command Array artwork reaching the right edge. Command Array remains the centerpiece and entry into the wider ecosystem. Customize has been removed from navigation and the standalone site; the existing Theme Guides remain.
+
+If you uploaded an earlier version, replace the supplied HTML files, styles.css, script.js and sitemap.xml. Delete customize.html from the repository if it was uploaded previously; uploading a new ZIP does not delete old remote files. That file can be restored from GitHub history if needed.
 
 This is the complete static website for the existing GitHub Pages repository:
 https://github.com/opulenthardware-mkt/bio-grid-system
@@ -30,7 +32,6 @@ Keep all your existing files unless you deliberately want to remove them. Upload
 - audio.html: MIX / MIC / MEDIA views, product video and companion requirement
 - vantage.html: feature preview, MONO / Signal switch and compatible display information
 - orbital.html: free Orbital Watch details and Marketplace download
-- customize.html: interactive palette, canvas, card color and card-opacity demonstration
 - guides.html: the existing Pilot Signal theme guide and all original downloads
 - setup.html: Runtime download, widget-specific setup and troubleshooting
 - roadmap.html: a general "more is coming" teaser

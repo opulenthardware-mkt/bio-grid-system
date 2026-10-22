@@ -23,14 +23,15 @@
 
 ## QA performed
 - Checked JavaScript syntax.
-- All ten pages checked at 390px phone width for document overflow and broken loaded images.
+- The initial ten pages were checked at 390px phone width for document overflow and broken loaded images.
 - Checked desktop overview and theme guide.
 - Verified catalog Free filter displays only Orbital Watch.
 - Verified Audio tabs display one correct view at a time.
 - Verified Vantage MONO switch changes its image and caption.
-- Verified palette and demo transport controls.
+- Removed the standalone Customize preview and its navigation links; Theme Guides remain available.
 - Verified preserved Pilot Signal guide renders, with three download links.
 - No browser console errors observed during these checks.
+- Revision 3 adds a full-width overview hero and removes Customize, leaving nine active pages.
 - Local file/link audit is included in the preparation workflow.
 
 This deliverable updates only static website files. No widget package, companion executable, GitHub repository, or live website has been changed.
