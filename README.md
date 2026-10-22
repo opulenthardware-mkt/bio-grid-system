@@ -1,5 +1,9 @@
 # BIO-GRID website refresh
 
+## Overview revision 2
+
+The overview now leads with the wider BIO-GRID experience: Command Array as the centerpiece and entry into the ecosystem, complementary roles for Audio Module / Vantage / Orbital Watch, example multi-widget arrangements, and a shared visual identity. This revision changes index.html and styles.css. All other pages remain as prepared in the first refresh.
+
 This is the complete static website for the existing GitHub Pages repository:
 https://github.com/opulenthardware-mkt/bio-grid-system
 
