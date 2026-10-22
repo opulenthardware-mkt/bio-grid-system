@@ -5,7 +5,7 @@ const themeGuides = [
     posted: '2026-10-22',
     title: 'Build the Fuji Redline setup',
     label: 'BIO-GRID + GRIDLINE',
-    summary: 'One artwork. Several ways to build your canvas. Pair warm ivory, mountain slate and a sun-red accent with transparent instruments. BIO-GRID also works beautifully alongside other Opulent Hardware widgets, including GRIDLINE Modules: coordinate the palette and background, then choose the controls and readouts that suit your setup.',
+    summary: 'One artwork. Several ways to build your canvas. Pair warm ivory, dark ink and a sun-red accent with transparent instruments. BIO-GRID also works beautifully alongside other Opulent Hardware widgets, including GRIDLINE Modules: coordinate the palette and background, then choose the controls and readouts that suit your setup.',
     cover: { src: 'assets/fuji-audio-vantage.png', alt: 'BIO-GRID Audio Module on the left and BIO-GRID Vantage on the right over a shared Mount Fuji and sports-car background' },
     products: [
       { name: 'BIO-GRID Audio Module', url: 'audio.html' },
@@ -15,29 +15,30 @@ const themeGuides = [
     ],
     palette: [
       { role: 'Artwork red / matching accent', hex: '#C9423D', note: 'Representative sun red sampled from the supplied Fuji artwork.' },
-      { role: 'High-visibility accent option', hex: '#FF4148', note: 'Brighter alternative inspired by the widget screenshots; not the sampled artwork red.' },
       { role: 'Warm ivory / text', hex: '#EEE7DD', note: 'Sampled from the open sky. Use for main labels and readings.' },
-      { role: 'Ink / card surfaces', hex: '#0F1114', note: 'Sampled from the dark architecture. Use translucent surfaces for contrast.' },
-      { role: 'Mountain slate / secondary tone', hex: '#596B7B', note: 'Supporting blue-grey inspired by the mountain layers.' }
+      { role: 'Ink / card surfaces', hex: '#0F1114', note: 'Sampled from the dark architecture. Use translucent surfaces for contrast.' }
     ],
-    paletteNote: 'HEX values are for screen use. Sun red, warm ivory and ink were sampled from the supplied background; the brighter accent and mountain slate are supporting styling choices. Screenshots demonstrate the overall look, not verified slider positions or saved presets.',
+    paletteNote: 'Three core colors, sampled from the supplied background: sun red, warm ivory and dark ink. Screenshots demonstrate the overall look, not verified slider positions or saved presets.',
     steps: [
       { title: 'Choose your pairing', text: 'The first reference shows BIO-GRID Audio Module on the left with BIO-GRID Vantage on the right. The second shows BIO-GRID Command Array with Vantage. The third combines GRIDLINE Modules with Vantage. These are alternative layouts, not one widget switching between products. Install and configure each widget separately.' },
       { title: 'Let the artwork connect the layout', text: 'Use the supplied Fuji landscape as the shared display background where your iCUE layout supports it. Keep the image aligned across the canvas rather than stretching a separate copy into every widget. Leave the car visible on the right and the red sun behind the left-hand instruments. Use the original artwork as supplied; the screenshots are layout references, not backgrounds.' },
-      { title: 'Match the red, then set the contrast', text: 'Enable the available custom styling controls on each widget. Start with accent #C9423D to echo the red sun. Choose #FF4148 instead if you prefer the brighter instrument-red feel shown in the references. Use #EEE7DD for text and #0F1114 for card surfaces where independent surface controls are available. Settings vary between widget families.' },
+      { title: 'Match the red, then set the contrast', text: 'Enable the available custom styling controls on each widget. Use accent #C9423D to echo the red sun, #EEE7DD for text and #0F1114 for card surfaces where independent surface controls are available. Settings vary between widget families.' },
       { title: 'Keep the instruments readable', text: 'Reduce card opacity enough to reveal the landscape, but retain a dark layer behind labels, sliders and sensor readings. Begin with low blur to preserve the car and mountain detail; add a little blur only where busy artwork competes with the readouts. Exact brightness, opacity and blur values depend on the widget and your viewing distance.' },
       { title: 'Give each widget its job', text: 'Audio Module supplies MIX, MIC and MEDIA controls and needs the Opulent Hardware Module Runtime for its full functionality. Command Array brings the reactive sensor core and touch commands; its Stream Deck view requires the Stream Deck desktop app. Vantage adds the compact sensor or clock instrument, shown here in MONO. GRIDLINE Modules provides the alternative system dashboard shown in the third reference. Choose your own sensor assignments: the values pictured are examples.' },
-      { title: 'Carry the look beyond BIO-GRID', text: 'Repeat the red accent, ivory text and translucent dark surfaces in other Opulent Hardware widgets that expose those settings. Matching the visual treatment makes separate widgets feel like one composed workspace; it does not require a module launcher or mean the widgets share settings automatically. The supplied silver-car portrait is an optional companion wallpaper for another display, not the background used in the three landscape references.' }
+      { title: 'Fill the Personality Bay', text: 'In Command Array, select the supplied silver-car-portrait.jpg image for the Personality Bay user media. The Sensor view reference shows this top-down car image inside the bay, while the Fuji landscape remains behind the widgets. Adjust the available image framing controls to suit your layout.' },
+      { title: 'Carry the look beyond BIO-GRID', text: 'Repeat the red accent, ivory text and translucent dark surfaces in other Opulent Hardware widgets that expose those settings. Matching the visual treatment makes separate widgets feel like one composed workspace; it does not require a module launcher or mean the widgets share settings automatically.' }
     ],
     gallery: [
+      { src: 'assets/fuji-command-personality-bay.png', alt: 'BIO-GRID Command Array in Sensor view with the top-down silver-car portrait in its Personality Bay, beside BIO-GRID Vantage', caption: 'PERSONALITY BAY // COMMAND ARRAY SENSOR VIEW + VANTAGE' },
       { src: 'assets/fuji-command-vantage.png', alt: 'BIO-GRID Command Array in Stream Deck view beside BIO-GRID Vantage with clock readout', caption: 'LAYOUT 02 // BIO-GRID COMMAND ARRAY + BIO-GRID VANTAGE' },
       { src: 'assets/fuji-gridline-vantage.png', alt: 'GRIDLINE Modules system dashboard beside BIO-GRID Vantage with primary CPU reading', caption: 'LAYOUT 03 // GRIDLINE MODULES + BIO-GRID VANTAGE' },
       { src: 'assets/fuji-background.png', alt: 'Original landscape artwork with Mount Fuji, a red sun and a silver sports car', caption: 'SOURCE ARTWORK // SHARED LANDSCAPE BACKGROUND' },
-      { src: 'assets/silver-car-portrait.jpg', alt: 'Top-down silver sports car on a pale grey portrait background', caption: 'OPTIONAL COMPANION // PORTRAIT WALLPAPER' }
+      { src: 'assets/silver-car-portrait.jpg', alt: 'Top-down silver sports car on a pale grey portrait background', caption: 'PERSONALITY BAY // SOURCE PORTRAIT IMAGE' }
     ],
     files: [
       { name: 'Fuji landscape background', file: 'fuji-background.png', path: 'assets/fuji-background.png', meta: 'PNG // ORIGINAL ARTWORK' },
-      { name: 'Silver-car portrait wallpaper', file: 'silver-car-portrait.jpg', path: 'assets/silver-car-portrait.jpg', meta: 'JPG // OPTIONAL COMPANION' },
+      { name: 'Personality Bay car image', file: 'silver-car-portrait.jpg', path: 'assets/silver-car-portrait.jpg', meta: 'JPG // USER MEDIA' },
+      { name: 'Command Array Personality Bay reference', file: 'fuji-command-personality-bay.png', path: 'assets/fuji-command-personality-bay.png', meta: 'PNG // SENSOR VIEW' },
       { name: 'Audio Module + Vantage reference', file: 'fuji-audio-vantage.png', path: 'assets/fuji-audio-vantage.png', meta: 'PNG // LAYOUT 01' },
       { name: 'Command Array + Vantage reference', file: 'fuji-command-vantage.png', path: 'assets/fuji-command-vantage.png', meta: 'PNG // LAYOUT 02' },
       { name: 'GRIDLINE Modules + Vantage reference', file: 'fuji-gridline-vantage.png', path: 'assets/fuji-gridline-vantage.png', meta: 'PNG // LAYOUT 03' }
