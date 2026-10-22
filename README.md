@@ -1,8 +1,19 @@
-# BIO-GRID website refresh
+# BIO-GRID
 
-## Revision 3 — full-width overview
+The BIO-GRID website by Opulent Hardware.
 
-The overview uses a viewport-wide hero with large type, a technical grid and Command Array artwork reaching the right edge. Command Array remains the centerpiece and entry into the wider ecosystem. Customize has been removed from navigation and the standalone site; the existing Theme Guides remain.
+Explore the widget collection, theme guides, downloads and setup information for CORSAIR XENEON EDGE and supported iCUE displays.
 
+## Website
 
-https://github.com/opulenthardware-mkt/bio-grid-system
+https://opulenthardware-mkt.github.io/bio-grid-system/
+
+## Publishing
+
+Upload the contents of this folder to the root of the website repository, keeping the assets folder intact. GitHub Pages serves the website directly; no build step is required.
+
+## Maintenance
+
+Product pages contain their own descriptions and Marketplace links. Shared styling is in styles.css, and shared interactions are in script.js.
+
+Theme guides and their downloads are available through guides.html.
